@@ -8,10 +8,7 @@ use App\Exports\EmployeeExport;
 use Excel;
 class EmployeeController extends Controller
 {
-    //
     public function addEmployee(){
-    	/*$employee = array(['name'=>'Abc','email'=>'abc@gmail.com','phone'=>'9999999999'],
-    						['name'=>'Xyz','email'=>'xyz@gmail.com','phone'=>'888888888']);*/
 		$employee = [
 						['name'=>'Abc','email'=>'abc@gmail.com','phone'=>'9999999999','salary'=>10000,'department'=>'Marketing'],
 						['name'=>'Xyz','email'=>'xyz@gmail.com','phone'=>'888888888','salary'=>15000,'department'=>'Accounting'],
